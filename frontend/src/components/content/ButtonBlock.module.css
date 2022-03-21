@@ -1,0 +1,21 @@
+.equal {
+  grid-column: 3 / 5;
+  background-color: #29117a;
+  color: #47d791;
+  border-color: #29117a;
+}
+
+.equal:hover,
+.equal:active {
+  background: #19045c;
+  border-color: #19045c;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}
+
+.block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+}
